@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Gym AI Pro</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>GYM AI PRO</h1>
+
+  <div class="card">
+    <h2>Datos del usuario</h2>
+    <input id="edad" placeholder="Edad">
+    <input id="peso" placeholder="Peso (kg)">
+    <input id="altura" placeholder="Altura (cm)">
+    
+    <select id="objetivo">
+      <option value="volumen">Volumen</option>
+      <option value="definicion">Definicion</option>
+    </select>
+
+    <button onclick="generarPlan()">Generar Plan</button>
+  </div>
+
+  <div class="card" id="resultado"></div>
+
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

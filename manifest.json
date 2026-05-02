@@ -1,0 +1,9 @@
+{
+  "name": "Gym AI Pro",
+  "short_name": "GymAI",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#000000",
+  "theme_color": "#00ff88",
+  "icons": []
+}

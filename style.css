@@ -1,0 +1,40 @@
+body {
+  background: #0a0a0a;
+  color: #00ff88;
+  font-family: Arial;
+  text-align: center;
+}
+
+.container {
+  max-width: 500px;
+  margin: auto;
+}
+
+.card {
+  background: #111;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #00ff88;
+}
+
+input, select {
+  width: 90%;
+  padding: 10px;
+  margin: 5px;
+  background: black;
+  color: #00ff88;
+  border: 1px solid #00ff88;
+}
+
+button {
+  background: #00ff88;
+  color: black;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  box-shadow: 0 0 15px #00ff88;
+}
